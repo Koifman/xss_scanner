@@ -180,7 +180,6 @@ def main():
 	the_thing = Xss(args.target, injections[1])
 	the_thing.set_logfile(args.logfile)
 	the_thing.set_proxy(args.proxy)
-	the_thing.set_scantype(args.mass)
 	the_thing.lets_have_fun()
 if __name__ == "__main__":
 	main()
